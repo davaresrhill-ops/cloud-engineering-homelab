@@ -1,0 +1,44 @@
+# Project 1 — Ubuntu Web Server
+
+## 📌 Overview
+
+I built and configured an Ubuntu Linux web server in my Proxmox home lab and deployed a custom webpage using Nginx.
+
+This project is my first hands-on cloud engineering lab and focuses on Linux administration, networking, SSH, firewalls, web servers, and basic system monitoring.
+
+## 🎯 Objectives
+
+- Deploy an Ubuntu Linux server
+- Configure remote SSH access
+- Create a dedicated administrative user
+- Configure a UFW firewall
+- Install and configure Nginx
+- Deploy a custom webpage
+- Learn basic server monitoring
+- Inspect web server logs
+
+## 🖥️ Environment
+
+- Virtualization: Proxmox
+- Operating System: Ubuntu Server
+- Web Server: Nginx
+- Remote Access: SSH
+- Firewall: UFW
+- Network: Local home lab
+
+## 🔐 Security Configuration
+
+Created a dedicated administrative user:
+
+`cloudadmin`
+
+Configured firewall rules to allow:
+
+- SSH
+- HTTP
+- HTTPS
+
+Verified the firewall with:
+
+```bash
+sudo ufw status
