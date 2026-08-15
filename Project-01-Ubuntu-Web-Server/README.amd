@@ -50,7 +50,7 @@ sudo ufw status
 
 ### Firewall Configuration
 
-![UFW Firewall](screenshots/firewall.png)
+Firewall .jpg
 
 ### Nginx Service
 
