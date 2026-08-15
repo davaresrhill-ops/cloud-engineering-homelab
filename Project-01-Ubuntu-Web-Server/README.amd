@@ -42,3 +42,16 @@ Verified the firewall with:
 
 ```bash
 sudo ufw status
+## 📸 Screenshots
+
+### Custom Webpage
+
+![Custom Webpage](screenshots/webpage.png)
+
+### Firewall Configuration
+
+![UFW Firewall](screenshots/firewall.png)
+
+### Nginx Service
+
+![Nginx Status](screenshots/nginx-status.png)
